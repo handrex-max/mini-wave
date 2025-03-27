@@ -27,4 +27,16 @@ window.addEventListener('load' , ()=>{
 
 
 
+const logo  = document.getElementById('logo')
+const miniLogo = document.getElementById('mini-logo')
 
+
+logo.addEventListener( 'click' , ()=>{
+    location.reload();
+})
+
+
+
+miniLogo.addEventListener( 'click' , ()=>{
+    location.reload();
+})

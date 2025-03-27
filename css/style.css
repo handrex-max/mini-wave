@@ -55,6 +55,7 @@ body{
     justify-content: right;
     align-items: center;
     margin-bottom: 25px;
+    margin-top: 7px;
 }
 
 
@@ -73,6 +74,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     border: 2px royalblue solid;
+    cursor: pointer;
 }
 
 
@@ -118,6 +120,7 @@ ul li a{
     object-fit: contain;
     position: absolute;
     left: 2rem;
+    cursor: pointer;
 }
 
 
@@ -213,6 +216,7 @@ ul li a:hover{
     color: #fff;
     font-size: 26px;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 
@@ -268,7 +272,16 @@ ul li a:hover{
     height: auto;
     display: flex;
     flex-direction: column;
+    transition: 0.4s;
 }
+
+
+
+.serie:hover{
+    scale: 1.07;
+}
+
+
 
 
 .serie img{
@@ -281,6 +294,7 @@ ul li a:hover{
 .serie h4{
     color: #fff;
     margin: 5px auto 0 auto;
+    font-weight: 400;
 }
 
 
@@ -309,7 +323,18 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
 }
+
+
+
+.last-chapter:hover{
+    background-color: #ffbb00;
+}
+
+
+
 
 
 .last-chapter p{
@@ -320,6 +345,76 @@ ul li a:hover{
 .last-chapter  span{
     color: #e07d04;
 }
+
+
+
+
+
+/* 
+===========================================================
+                        Footer
+===========================================================
+*/
+
+
+footer{
+    width: 85%;
+    margin: 2rem auto 0 auto;
+    height: auto;
+    background-color: #1c1c1c;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+
+footer #mini-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+footer p{
+    margin-left: 30px;
+    color: #878787;
+}
+
+
+.social-media{
+    width: 125px;
+    height: auto;
+    position: absolute;
+    margin-right: 50px;
+    right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+footer .copyright{
+    text-align: center;
+}
+
+
+
+footer a:hover{
+    color: red;
+}
+
+
+
 
 
 
@@ -472,6 +567,24 @@ ul li a:hover{
     }
 
     
+
+    /* 
+    ===========================================================
+                            Footer
+    ===========================================================
+    */
+
+
+    footer{
+        width: 100%;
+    }
+
+
+    .social-media{
+        margin-right: 0;
+    }
+
+
 
 
 }
