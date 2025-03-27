@@ -45,7 +45,8 @@
 
 
 body{
-    background-color: black;
+    background-color: #131313;
+    color: #fff;
     width: 100%;
 }
 
@@ -178,6 +179,9 @@ ul li a:hover{
 .teamscroll{
     height: 200px;
     display: flex;
+    user-select: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -237,6 +241,85 @@ ul li a:hover{
 
 
 
+
+
+
+
+/* 
+===========================================================
+                        Series
+===========================================================
+*/
+
+
+.all-series{
+    width: 80%;
+    display: flex;
+    margin: 2rem auto 0 auto;
+    user-select: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.serie{
+    margin: 10px 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.serie img{
+    height: 250px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+
+.serie h4{
+    color: #fff;
+    margin: 5px auto 0 auto;
+}
+
+
+
+.serie p{
+    margin-left: 7px;
+    margin: 5px 0 2px 0;
+    font-size: 18px;
+    
+}
+
+.serie p i{
+    color: #ffbb00;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+
+
+.last-chapter{
+    width: 97%;
+    height: 40px;
+    background-color: #1f2937;
+    margin: 1px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last-chapter p{
+    font-size: 16px;
+}
+
+
+.last-chapter  span{
+    color: #e07d04;
+}
 
 
 
@@ -366,6 +449,27 @@ ul li a:hover{
 
 
 
+     /* 
+    ===========================================================
+                            All Seris
+    ===========================================================
+    */
+
+
+
+
+    .all-series{
+        width: 90%;
+    }
+
+    .serie{
+        width: 225px;
+    }
+
+    .serie img{
+        width: 225px;
+        height: 350px;
+    }
 
     
 

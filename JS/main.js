@@ -28,15 +28,3 @@ window.addEventListener('load' , ()=>{
 
 
 
-
-const cardTeam = document.querySelectorAll('#team-card')
-const followerBtn = document.querySelectorAll('.following')
-
-
-cardTeam.addEventListener('mouseenter' , ()=>{
-    followerBtn.style.display = 'block'
-})
-
-cardTeam.addEventListener('mouseleave' , ()=>{
-    followerBtn.style.display = 'none'
-})
