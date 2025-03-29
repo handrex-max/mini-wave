@@ -1,0 +1,23 @@
+
+
+@media screen and (max-width:450px) {
+    .all-series{
+        width: 100%;
+    }
+
+    .serie{
+        width: 170px;
+    }
+
+    .serie img{
+        width: 100%;
+    }
+
+    footer #mini-logo{
+        margin-left: 1rem;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+}

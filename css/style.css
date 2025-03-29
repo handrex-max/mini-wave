@@ -543,6 +543,10 @@ footer a:hover{
         width: 225px;
     }
 
+    .serie:hover{
+        scale:1
+    }
+
     .serie img{
         width: 225px;
         height: 350px;
